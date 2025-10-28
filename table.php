@@ -1,8 +1,8 @@
 <?php
     $people = [
-        ['ism' => 'husan', 'familiya' => 'hasonov', 't_yili' => 1990],
-        ['ism' => 'Mariya', 'familiya' => 'madirmova', 't_yili' => 1985],
-        ['ism' => 'shaxzod', 'familiya' => 'xudoyberdiyev', 't_yili' => 2000],
+        ['ism' => 'hasan', 'familiya' => 'huanov', 't_yili' => 1990],
+        ['ism' => 'shox', 'familiya' => 'Qodirov', 't_yili' => 1985],
+        ['ism' => 'elyor', 'familiya' => 'Xudoyberdiyev', 't_yili' => 2000],
     ]
 ?>
 <!DOCTYPE html>
@@ -86,7 +86,7 @@
 </head>
 <body>
 
-    <table cellpadding="8" cellspacing="0" style="border-collapse:collapse; width:100%;">
+    <table border="1" cellpadding="8" cellspacing="0" style="border-collapse:collapse; width:100%;">
         <thead style="background:#f0f0f0;">
             <tr>
                 <th>Ism</th>
@@ -105,4 +105,4 @@
         </tbody>
     </table>
 </body>
-</html>
+</html> 
