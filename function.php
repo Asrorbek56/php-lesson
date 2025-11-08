@@ -10,6 +10,8 @@
 
 
 
+
+
 $sonlar =[0,54,78,99,14];
 
 function num_max($sonlar){
