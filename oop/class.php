@@ -8,8 +8,11 @@ class Car{
         $this->color =$color ;
         $this->probeg = $probeg;
     }
+    public function __destruct(){
+        echo "obyek yoq qilindi<br>";
+    }
     public function drive(){
-        echo" mashina yurmoqda";
+        echo" mashina yurmoqda<br>";
     }
     public function setProbeg($probeg){
         $this->probeg =$probeg;
@@ -26,11 +29,10 @@ $bmw->setprobeg(20109);
 echo $bmw->model;
 echo "probeg:".$bmw->probeg."<br>";
 echo "probeg:".$bmw->getProbeg()."<br>";
-
 $bmw->drive();"<br>";
 
 $damas=new Car("black",0);
-$damas->model="damas";
+$damas->model="damas<br>";
 $damas->color="white";
 echo $damas->model;
 ?>
