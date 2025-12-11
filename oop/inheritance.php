@@ -50,5 +50,5 @@ $it = new Dog();
 $it->sound();
 $it->setName("bobka");
 echo $it->getName()."<br>";
-$cat = new Cat();
+$cat = new Cat();   
 $cat->sound();
