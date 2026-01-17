@@ -27,5 +27,9 @@ $pay2= new Click(10000);
 echo $pay2->info();
 echo $pay2->pay();
 
+$car = array("cobalt","bmw")
+
+// *******************************************
+
 
 ?>
